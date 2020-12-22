@@ -65,7 +65,7 @@ public class Main {
             word = inp.nextLine();
         }
         println("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
-
+        word = word.toLowerCase();
         return word;
     }
 
@@ -98,6 +98,8 @@ public class Main {
         guess = inp.nextLine().charAt(0); // gets the next char input, only first char if string is input
 
         println("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
+
+        guess = Character.toLowerCase(guess);
 
         return guess;
     }
